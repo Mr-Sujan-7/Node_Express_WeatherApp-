@@ -1,0 +1,29 @@
+<html lang='en'>
+  <head>
+   {{>headerlinks}}
+  </head>
+  <body>
+    {{>navbar}}
+    <!-- main header  -->
+    <div class='container-fluid main_header'>
+      <div class='row'>
+        <div class='col-md-10 col-12 mx-auto'>
+          <div class='row'>
+            <!-- left side div -->
+            <div class='col-md-12 col-12 main_header_left align-items-center'>
+              <figure class='sujan1'>
+                <img src='images/error.png' alt='sujan' class='img-fluid' />
+              </figure>
+              <p><span class='text_color'>Weather Hub</span></p>
+              <h2>{{errormsg}}</h2>
+              <a href='/'><button>Go Back</button></a>
+            </div>
+            <!-- Right Side Div -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer code -->
+    {{>footer}}
+  </body>
+</html>
